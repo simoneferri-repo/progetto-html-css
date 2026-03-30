@@ -2,5 +2,29 @@ body {
   --main-bg-color: #c60800;
 }
 .header__principale {
-  background-color: --main-bg-color;
+
+}
+.header__principale .header__container {
+  background-color: var(--main-bg-color);
+  padding: 1.0rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 0 1rem;
+}
+.navbar-dark .navbar-nav .nav-item:first-child .nav-link {
+  border-left: none;
+}
+.navbar-dark .navbar-nav .nav-item:last-child .nav-link {
+  border-right: none;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+img.img__logo {
+ display: block;
 }
