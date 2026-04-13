@@ -6,6 +6,7 @@ body {
   --main-bg-color: #fff;
   --main-text-color: #000;
   --header-bg-color: #c60800;
+  --flag--stamp--shift: 0.125rem;
 }
 .header__principale {
 
@@ -55,6 +56,8 @@ img.img__logo {
 }
 div.flag {
   background-color: var(--header-bg-color);
+  margin: auto;
+  transform: skew(-10deg) translateX(var(--flag--stamp--shift));
 }
 @media screen and (max-width: 575px) {
   .main__titolo-principale {
