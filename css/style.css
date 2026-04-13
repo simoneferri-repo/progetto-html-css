@@ -55,8 +55,10 @@ img.img__logo {
   color: #c60800;
 }
 div.flag {
+  color: var(--main-bg-color);
   background-color: var(--header-bg-color);
   margin: auto;
+  font-size: 700;
   transform: skew(-10deg) translateX(var(--flag--stamp--shift));
 }
 @media screen and (max-width: 575px) {
