@@ -10,6 +10,9 @@ body {
   --border-color-darkgray: #585858;
   --flag--stamp--shift: 0.125rem;
 }
+h2, h3 {
+  font-family: 'neue-haas-grotesk-display-bold', sans-serif;
+}
 .header__principale {
 
 }
@@ -116,7 +119,57 @@ section#notizie-evidenza-secondo-piano article a:hover {
   text-decoration: none;
 }
 section#notizie-evidenza-secondo-piano a h3 {
+  margin-top: 1em;
   font-size: large;
+}
+a.article__link-titolo-big {
+  font-weight: 700;
+  display: block;
+  font-size: xx-large;
+  text-transform: none;
+  color: var(--main-text-color);
+}
+
+a.article__link-titolo-big:hover {
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+  text-decoration: none;
+}
+a.article__link-titolo-big p {
+  margin-top: 1rem;
+  font-size: medium;
+  font-weight: 400;
+  color: var(--main-text-color);
+}
+a.article__link-titolo-big:hover p {
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+  text-decoration: none;
+}
+a.article__link-titolo-big .article__link-titolo-red {
+  color: var(--header-bg-color);
+  text-decoration: underline;
+}
+a.article__link-titolo-big:hover .article__link-titolo-red {
+  color: #FF6661;
+  text-decoration: none;
+}
+a.article__link-titolo-medium {
+  color: var(--main-text-color);
+}
+a.article__link-titolo-medium:hover h3 {
+  display: block;
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+  text-decoration: none;
+}
+a.article__link-titolo-medium h3 {
+  margin-top: 1em;
+  font-weight: 700;
+  display: block;
+  font-size: medium;
+  text-transform: none;
+  color: var(--main-text-color);
 }
 @media screen and (max-width: 575px) {
   .main__titolo-principale {
@@ -140,6 +193,9 @@ section#notizie-evidenza-secondo-piano a h3 {
   section#notizie-evidenza-secondo-piano>div div.col-12:nth-child(2), section#notizie-evidenza-secondo-piano>div div.col-12:nth-child(3) {
     border-top: 1px solid var(--border-color-darkgray);
     padding-top: 1.5rem;
+  }
+  section#notizie-evidenza-secondo-piano a h3 {
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 991px) {
