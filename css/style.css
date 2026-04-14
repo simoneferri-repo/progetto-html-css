@@ -54,6 +54,15 @@ img.img__logo {
   text-transform: uppercase;
   color: #c60800;
 }
+main__titolo-principale a {
+  font-size: xx-large;
+  text-transform: none;
+  color: var(--main-text-color);
+}
+main__titolo-principale a:hover {
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+}
 div.flag {
   color: var(--main-bg-color);
   background-color: var(--header-bg-color);
