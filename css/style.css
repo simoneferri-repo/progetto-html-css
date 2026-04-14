@@ -6,6 +6,7 @@ body {
   --main-bg-color: #fff;
   --main-text-color: #000;
   --header-bg-color: #c60800;
+  --border-color-gray: #ccc;
   --flag--stamp--shift: 0.125rem;
 }
 .header__principale {
@@ -73,14 +74,31 @@ p.sottotitolo__notizia-link a:hover {
   color: var(--main-bg-color);
   text-decoration: none;
 }
+h3.notizia__correlata a {
+  font-size: medium;
+  text-transform: none;
+  color: var(--main-text-color);
+}
+h3.notizia__correlata a:hover {
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+  text-decoration: none;
+}
 div.flag {
   color: var(--main-bg-color);
   background-color: var(--header-bg-color);
-  margin: 1em auto;
+  margin: 1rem auto;
   font-weight: 700;
   width: fit-content;
-  padding: 0.1em 0.5em;
+  padding: 0.1rem 0.5rem;
   transform: skew(-10deg) translateX(var(--flag--stamp--shift));
+}
+.bi-caret-right {
+  color: var(--header-bg-color);
+}
+section#notizie-evidenza-secondo-piano {
+  border-top: 1px solid var(--border-color-gray);
+  padding: 1.5rem 0;
 }
 @media screen and (max-width: 575px) {
   .main__titolo-principale {
