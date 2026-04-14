@@ -62,6 +62,16 @@ img.img__logo {
 .main__titolo-principale a:hover {
   background-color: var(--main-text-color);
   color: var(--main-bg-color);
+  text-decoration: none;
+}
+p.sottotitolo__notizia-link a {
+  text-transform: none;
+  color: var(--main-text-color);
+}
+p.sottotitolo__notizia-link a:hover {
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+  text-decoration: none;
 }
 div.flag {
   color: var(--main-bg-color);
