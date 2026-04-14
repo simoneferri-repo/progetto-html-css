@@ -58,7 +58,7 @@ div.flag {
   color: var(--main-bg-color);
   background-color: var(--header-bg-color);
   margin: auto;
-  font-size: 700;
+  font-weight: 700;
   width: fit-content;
   padding: 0.1em 0.5em;
   transform: skew(-10deg) translateX(var(--flag--stamp--shift));
