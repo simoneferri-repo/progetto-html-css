@@ -50,7 +50,6 @@ img.img__logo {
 .promo__link {
   display: block;
   font-weight: 600;
-  text-decoration: none;
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
 }
