@@ -103,7 +103,7 @@ h3.notizia__correlata a:hover {
   color: var(--main-bg-color);
   text-decoration: none;
 }
-div.flag {
+.flag {
   color: var(--main-bg-color);
   background-color: var(--header-bg-color);
   margin: 1rem auto;
