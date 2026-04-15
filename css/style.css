@@ -104,6 +104,12 @@ div.flag {
 }
 .bi-caret-right {
   color: var(--header-bg-color);
+    transition-property: margin-left;
+    transition-duration: 1s;
+    margin-left: 0;
+}
+.bi-caret-right:hover {
+     margin-left: 1rem;
 }
 section#notizie-evidenza-secondo-piano {
   border-top: 1px solid var(--border-color-gray);
