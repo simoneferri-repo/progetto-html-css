@@ -104,8 +104,10 @@ h3.notizia__correlata a:hover {
   text-decoration: none;
 }
 .flag {
+  display: block;
   color: var(--main-bg-color);
   background-color: var(--header-bg-color);
+  border: 1px solid transparent;
   margin: 1rem auto;
   font-weight: 700;
   width: fit-content;
@@ -196,6 +198,18 @@ section#notizie-evidenza-terzo-piano .col-sm-4 .col-12:nth-child(2) article {
 section#notizie-evidenza-terzo-piano>div.row>div.col-sm-8 {
   border-right: 1px solid var(--border-color-darkgray);
 }
+a.flag:hover {
+  background-color: var(--main-bg-color);
+  color: var(--header-bg-color);
+  border: 1px solid var(--header-bg-color);
+}
+div.sezione__opinioni-striscia:after {
+  border-bottom: 3px solid var(--main-text-color);
+  align-self: center;
+  content: "";
+  flex-grow: 1;
+}
+/* Media Queries */
 @media screen and (max-width: 575px) {
   .main__titolo-principale {
     font-size: 2.5rem;
