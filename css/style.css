@@ -203,12 +203,39 @@ a.flag:hover {
   color: var(--header-bg-color);
   border: 1px solid var(--header-bg-color);
 }
-div.sezione__opinioni-striscia:after {
-  border-bottom: 3px solid var(--main-text-color);
-  align-self: center;
-  content: "";
-  flex-grow: 1;
+div.sezione__opinioni-striscia {
+    position: relative;
 }
+div.sezione__opinioni-striscia:before {
+  background: var(--main-text-color);
+  content: "";
+  display: block;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: calc(50% - 6px);
+  width: calc(100% - 1px);
+  z-index: 0;
+}
+
+div.sezione__opinioni-striscia p {
+  font-size: large;
+  font-weight: 800;
+  font-style: italic;
+  text-transform: uppercase;
+  padding: 0 .625rem;
+  margin-bottom: 12px;
+  z-index: 1;
+  background-color: var(--main-bg-color);
+}
+div.sezione__opinioni-striscia a.d-flex {
+  padding: 0 .625rem;
+  margin-bottom: 12px;
+  z-index: 2;
+  background-color: var(--main-bg-color);
+}
+
+
 /* Media Queries */
 @media screen and (max-width: 575px) {
   .main__titolo-principale {
