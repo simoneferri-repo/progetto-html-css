@@ -186,6 +186,13 @@ a.article__link-titolo-medium h3 {
   text-transform: none;
   color: var(--main-text-color);
 }
+section#notizie-evidenza-terzo-piano .col-sm-4 article:first-child {
+  margin-bottom: 1em;
+  border: 1px solid var(--border-color-darkgray);
+}
+section#notizie-evidenza-terzo-piano .col-sm-4 article:nth-child(2) {
+  margin-top: 1em;
+}
 @media screen and (max-width: 575px) {
   .main__titolo-principale {
     font-size: 2.5rem;
