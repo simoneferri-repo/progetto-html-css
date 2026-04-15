@@ -102,13 +102,13 @@ div.flag {
   padding: 0.1rem 0.5rem;
   transform: skew(-10deg) translateX(var(--flag--stamp--shift));
 }
-.bi-caret-right {
+a .bi-caret-right {
   color: var(--header-bg-color);
     transition-property: margin-left;
     transition-duration: 1s;
     margin-left: 0;
 }
-.bi-caret-right:hover {
+a:hover.bi-caret-right {
      margin-left: 1rem;
 }
 section#notizie-evidenza-secondo-piano {
