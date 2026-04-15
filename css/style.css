@@ -65,7 +65,7 @@ a.promo__link .bi-caret-right {
 }
 a.promo__link:hover .bi-caret-right {
   color: var(--main-bg-color);
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
 }
 .main__titolo-principale {
   font-family: 'neue-haas-grotesk-display-bold', sans-serif;
