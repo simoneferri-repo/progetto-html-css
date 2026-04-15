@@ -59,13 +59,13 @@ img.img__logo {
 }
 a.promo__link .bi-caret-right {
   color: var(--header-bg-color);
-  transition-property: margin-right;
-  transition-duration: 1s;
-  margin-right: 0;
+  transition-property: margin-left;
+  transition-duration: 0.5s;
+  margin-left: 0;
 }
 a.promo__link:hover .bi-caret-right {
   color: var(--main-bg-color);
-  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 .main__titolo-principale {
   font-family: 'neue-haas-grotesk-display-bold', sans-serif;
