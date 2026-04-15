@@ -187,11 +187,11 @@ a.article__link-titolo-medium h3 {
   color: var(--main-text-color);
 }
 section#notizie-evidenza-terzo-piano .col-sm-4 .col-12:first-child article {
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid var(--border-color-darkgray);
 }
 section#notizie-evidenza-terzo-piano .col-sm-4 .col-12:nth-child(2) article {
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 section#notizie-evidenza-terzo-piano>div.row>div.col-sm-8 {
   border-right: 1px solid var(--border-color-darkgray);
