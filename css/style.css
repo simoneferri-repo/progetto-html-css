@@ -108,7 +108,7 @@ a .bi-caret-right {
     transition-duration: 1s;
     margin-left: 0;
 }
-a:hover.bi-caret-right {
+a:hover .bi-caret-right {
      margin-left: 1rem;
 }
 section#notizie-evidenza-secondo-piano {
