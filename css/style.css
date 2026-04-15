@@ -10,6 +10,12 @@ body {
   --border-color-darkgray: #585858;
   --flag--stamp--shift: 0.125rem;
 }
+a {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
 h2, h3 {
   font-family: 'neue-haas-grotesk-display-bold', sans-serif;
 }
