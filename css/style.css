@@ -198,27 +198,30 @@ section#notizie-evidenza-terzo-piano .col-sm-4 .col-12:nth-child(2) article {
 section#notizie-evidenza-terzo-piano>div.row>div.col-sm-8 {
   border-right: 1px solid var(--border-color-darkgray);
 }
-a.flag-vuota {
+.flag-vuota {
   display: block;
   background-color: var(--main-bg-color);
   color: var(--header-bg-color);
   border: 2px solid var(--main-text-color);
   margin: 1rem auto;
-  font-weight: 700;
-  font-size: x-large;
   text-transform: uppercase;
   width: fit-content;
   padding: 0.5rem 1rem;
   transform: skew(-10deg) translateX(var(--flag--stamp--shift));
   box-shadow: -1px 1px 0 var(--main-text-color), -2px 2px 0 var(--main-text-color), -3px 3px 0 var(--main-text-color), -4px 4px 0 var(--main-text-color), -5px 5px 0 var(--main-text-color), -6px 6px 0 var(--main-text-color);
 }
-a.flag-vuota:hover {
+.flag-vuota:hover {
   color: var(--main-bg-color);
   background-color: var(--header-bg-color);
   border: 2px solid var(--header-bg-color);
 }
+.sezione__opinioni-striscia .flag-vuota {
+  font-weight: 700;
+  font-size: x-large;
+}
 div.sezione__opinioni-striscia {
     position: relative;
+    justify-content: space-between !important;
 }
 div.sezione__opinioni-striscia:before {
   background: var(--main-text-color);
@@ -231,8 +234,8 @@ div.sezione__opinioni-striscia:before {
   width: calc(100% - 1px);
   z-index: 0;
 }
-div.sezione__opinioni-striscia h2 {
-  /*display: flex; */
+div.sezione__opinioni-striscia h2 a {
+  display: inline-block;
 }
 div.sezione__opinioni-striscia p {
   display: flex;
@@ -264,6 +267,41 @@ div.sezione__opinioni-striscia a.align-items-center:hover {
 div.sezione__opinioni-striscia a.align-items-center:hover .bi-caret-right {
   color: var(--main-bg-color);
 }
+.flag-vuota-small {
+  display: block;
+  font-size: small;
+  font-weight: 700;
+  letter-spacing: 1.04px;
+  background-color: var(--main-bg-color);
+  color: var(--header-bg-color);
+  border: 1px solid var(--header-bg-color);
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+  text-decoration: underline;
+  width: fit-content;
+  padding: 0.1rem 1rem;
+  transform: skew(-10deg) translateX(var(--flag--stamp--shift));
+}
+section#notizie-evidenza-secondo-piano a:hover .flag-vuota-small {
+  color: var(--main-bg-color);
+  background-color: var(--header-bg-color);
+  border: 1px solid var(--header-bg-color);
+  text-decoration: none;
+}
+.no-border {
+  display: block;
+  font-size: small;
+  font-weight: 700;
+  letter-spacing: 1.04px;
+  background-color: var(--main-bg-color);
+  color: var(--header-bg-color);
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+  text-decoration: underline;
+  width: fit-content;
+  padding: 0.1rem 1rem;
+  transform: skew(-10deg) translateX(var(--flag--stamp--shift));
+}
 
 
 /* Media Queries */
@@ -271,14 +309,15 @@ div.sezione__opinioni-striscia a.align-items-center:hover .bi-caret-right {
   .main__titolo-principale {
     font-size: 2.5rem;
   }
-section#notizie-evidenza-terzo-piano .col-sm-4 .col-12:first-child article {
-  padding-top: 1rem;
-  border-top: 1px solid var(--border-color-darkgray);
-}
+  section#notizie-evidenza-terzo-piano .col-sm-4 .col-12:first-child article {
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color-darkgray);
+  }
 
-section#notizie-evidenza-terzo-piano>div.row>div.col-sm-8 {
-  border-right: none;
-}  
+  section#notizie-evidenza-terzo-piano>div.row>div.col-sm-8 {
+    border-right: none;
+  }
+
 }
 @media screen and (max-width: 767px) {
   .navbar-light .navbar-nav .nav-link {
@@ -304,8 +343,19 @@ section#notizie-evidenza-terzo-piano>div.row>div.col-sm-8 {
   div.sezione__opinioni-striscia p {
     display: block;
   }
+  div.sezione__opinioni-striscia {
+    flex-direction: column !important;
+     text-align: center;
+  }
+  div.sezione__opinioni-striscia h2 a {
+    display: inline-block;
+    margin: 1rem auto 0 auto;
+  }
   div.sezione__opinioni-striscia a.align-items-center {
     display: none;
+  }
+  section#sezione-opinioni-fondo, div.sezione__opinioni-striscia a.align-items-center {
+    display: block;
   }
 }
 @media screen and (max-width: 991px) {
@@ -316,5 +366,10 @@ section#notizie-evidenza-terzo-piano>div.row>div.col-sm-8 {
 @media (min-width: 1200px) {
   .container{
     max-width: 1104px;
+  }
+}
+@media screen and (min-width: 768px) {
+  section#sezione-opinioni-fondo {
+    display: none;
   }
 }
