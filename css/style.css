@@ -117,25 +117,25 @@ h3.notizia__correlata a:hover {
 .bi-caret-right {
   color: var(--header-bg-color);
 }
-section#notizie-evidenza-secondo-piano {
+section.notizie-evidenza-secondo-piano {
   border-top: 1px solid var(--border-color-gray);
   border-bottom: 1px solid var(--border-color-gray);
   padding: 1.5rem 0;
 }
-section#notizie-evidenza-secondo-piano>div div.col-12:first-child, section#notizie-evidenza-secondo-piano>div div.col-12:nth-child(2) {
+section.notizie-evidenza-secondo-piano>div div.col-12:first-child, section#notizie-evidenza-secondo-piano>div div.col-12:nth-child(2) {
   border-right: 1px solid var(--border-color-darkgray);
 }
-section#notizie-evidenza-secondo-piano article a {
+section.notizie-evidenza-secondo-piano article a {
   display: block;
   text-transform: none;
   color: var(--main-text-color);
 }
-section#notizie-evidenza-secondo-piano article a:hover {
+section.notizie-evidenza-secondo-piano article a:hover {
   background-color: var(--main-text-color);
   color: var(--main-bg-color);
   text-decoration: none;
 }
-section#notizie-evidenza-secondo-piano a h3 {
+section.notizie-evidenza-secondo-piano a h3 {
   margin-top: 1em;
   font-size: large;
 }
@@ -282,7 +282,7 @@ div.sezione__opinioni-striscia a.align-items-center:hover .bi-caret-right {
   padding: 0.1rem 1rem;
   transform: skew(-10deg) translateX(var(--flag--stamp--shift));
 }
-section#notizie-evidenza-secondo-piano a:hover .flag-vuota-small {
+section.notizie-evidenza-secondo-piano a:hover .flag-vuota-small {
   color: var(--main-bg-color);
   background-color: var(--header-bg-color);
   border: 1px solid var(--header-bg-color);
@@ -329,15 +329,15 @@ section#notizie-evidenza-secondo-piano a:hover .flag-vuota-small {
     border-right: none;
     border-bottom:  1px solid #aaa;
   }
-  section#notizie-evidenza-secondo-piano>div div.col-12:first-child, section#notizie-evidenza-secondo-piano>div div.col-12:nth-child(2) {
+  section.notizie-evidenza-secondo-piano>div div.col-12:first-child, section#notizie-evidenza-secondo-piano>div div.col-12:nth-child(2) {
     border-right: none;
     padding-bottom: 0.5rem;
   }
-  section#notizie-evidenza-secondo-piano>div div.col-12:nth-child(2), section#notizie-evidenza-secondo-piano>div div.col-12:nth-child(3) {
+  section.notizie-evidenza-secondo-piano>div div.col-12:nth-child(2), section#notizie-evidenza-secondo-piano>div div.col-12:nth-child(3) {
     border-top: 1px solid var(--border-color-darkgray);
     padding-top: 1.5rem;
   }
-  section#notizie-evidenza-secondo-piano a h3 {
+  section.notizie-evidenza-secondo-piano a h3 {
     margin-top: 0;
   }
   div.sezione__opinioni-striscia p {
