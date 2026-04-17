@@ -354,7 +354,7 @@ section.notizie-evidenza-secondo-piano a:hover .flag-vuota-small {
   div.sezione__opinioni-striscia a.align-items-center {
     display: none;
   }
-  section#sezione-opinioni-fondo, div.sezione__opinioni-striscia a.align-items-center {
+  section#sezione-opinioni-fondo a.align-items-center {
     display: block;
   }
 }
