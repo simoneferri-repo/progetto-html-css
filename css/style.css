@@ -122,7 +122,7 @@ section.notizie-evidenza-secondo-piano {
   border-bottom: 1px solid var(--border-color-gray);
   padding: 1.5rem 0;
 }
-section.notizie-evidenza-secondo-piano>div div.col-12:first-child, section#notizie-evidenza-secondo-piano>div div.col-12:nth-child(2) {
+section.notizie-evidenza-secondo-piano>div div.col-12:first-child, section.notizie-evidenza-secondo-piano>div div.col-12:nth-child(2) {
   border-right: 1px solid var(--border-color-darkgray);
 }
 section.notizie-evidenza-secondo-piano article a {
@@ -329,11 +329,11 @@ section.notizie-evidenza-secondo-piano a:hover .flag-vuota-small {
     border-right: none;
     border-bottom:  1px solid #aaa;
   }
-  section.notizie-evidenza-secondo-piano>div div.col-12:first-child, section#notizie-evidenza-secondo-piano>div div.col-12:nth-child(2) {
+  section.notizie-evidenza-secondo-piano>div div.col-12:first-child, section.notizie-evidenza-secondo-piano>div div.col-12:nth-child(2) {
     border-right: none;
     padding-bottom: 0.5rem;
   }
-  section.notizie-evidenza-secondo-piano>div div.col-12:nth-child(2), section#notizie-evidenza-secondo-piano>div div.col-12:nth-child(3) {
+  section.notizie-evidenza-secondo-piano>div div.col-12:nth-child(2), section.notizie-evidenza-secondo-piano>div div.col-12:nth-child(3) {
     border-top: 1px solid var(--border-color-darkgray);
     padding-top: 1.5rem;
   }
@@ -355,7 +355,8 @@ section.notizie-evidenza-secondo-piano a:hover .flag-vuota-small {
     display: none;
   }
   section#sezione-opinioni-fondo a.align-items-center {
-    display: block;
+    display: inline-block;
+    margin: -0.7rem auto 0 auto;
   }
 }
 @media screen and (max-width: 991px) {
