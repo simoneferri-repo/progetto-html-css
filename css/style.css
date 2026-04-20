@@ -400,6 +400,9 @@ section.notizie-evidenza-secondo-piano a:hover .flag-vuota-small {
   section.notizie-evidenza-terzo-piano>div.row>div.col-sm-8 {
     border-right: none;
   }
+  a.article__link-titolo-medium h3 {
+    margin-top: 0;
+  }
 
 }
 @media screen and (max-width: 767px) {
@@ -423,7 +426,9 @@ section.notizie-evidenza-secondo-piano a:hover .flag-vuota-small {
   }
   section.notizie-evidenza-secondo-piano a h3 {
     margin-top: 0;
+    font-size: medium;
   }
+
   div.sezione__opinioni-striscia p {
     display: block;
   }
