@@ -73,10 +73,15 @@ h2, h3 {
   cursor: pointer;
   color: black;
   background-color: white;
-}
+}img.img__logo, img.img__notizia-big, img.img__notizia-small {
+   display: block;
+ }
 img.img__logo {
- display: block;
-  min-width: 280px;
+   min-width: 280px;
+}
+.navbar-light ul li a:hover {
+  color: var(--main-bg-color) !important;
+  background-color: var(--main-text-color);
 }
 .promo__link {
   display: block;
