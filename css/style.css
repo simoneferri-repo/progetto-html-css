@@ -2,6 +2,25 @@
   font-family: 'neue-haas-grotesk-display-bold';
   src: url('../font/NeueHaasDisplayBold.ttf');
 }
+html {
+  container-type: scroll-state;
+}
+
+header {
+  position: fixed;
+  z-index: 5;
+  inset: 0 0 auto;
+  transition: translate 0.25s;
+
+  translate: 0 0;
+
+  @container scroll-state(scrolled: bottom) {
+    translate: 0 -100%;
+  }
+}
+.container__principale {
+  padding-top: 8rem;
+}
 body {
   --main-bg-color: #fff;
   --main-text-color: #555;
