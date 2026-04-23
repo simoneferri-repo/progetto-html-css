@@ -451,6 +451,28 @@ section.notizie-evidenza-secondo-piano a:hover .flag-vuota-small {
   color: var(--main-bg-color);
   text-decoration: none;
 }
+article h4 a {
+  font-family: 'neue-haas-grotesk-display-bold', sans-serif;
+  font-size: large;
+  font-weight: 700;
+  color: var(--main-text-color);
+  display: block;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color-gray);
+}
+article h4 a:hover {
+  color: var(--main-bg-color);
+  background-color: var(--main-text-color);
+  text-decoration: none;
+}
+section#argomenti-notizie h3 a span.bi-caret-right {
+  color: var(--header-bg-color);
+  background-color: var(--main-bg-color);
+}
+section#argomenti-notizie h3 a:hover .bi-caret-right {
+  color: var(--main-bg-color);
+  background-color: var(--header-bg-color);
+}
 
 /* Media Queries */
 @media screen and (max-width: 575px) {
