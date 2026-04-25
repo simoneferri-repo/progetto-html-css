@@ -61,8 +61,8 @@
         </div>
       </div>
       <div class="header__navbar row" >
-        <div class="col-md-1 col-lg-2 d-none d-md-block bg-dark"></div>
-        <div class="col-12 col-md-10 col-lg-8 bg-dark" id="header__navbar">
+        <div class="col-md-2 col-lg-2 d-none d-lg-block bg-dark"></div>
+        <div class="col-12 col-md-9 col-lg-8 bg-dark" id="header__navbar">
           <nav class="navbar navbar-nav-scroll navbar-expand-md navbar-dark" id="header__navbar__nav">
             <div class="container-fluid">
               <a class="navbar-brand d-block d-md-none"  href="#">Menu principale</a>
@@ -83,7 +83,13 @@
             </div>
           </nav>
         </div>
-        <div class="col-12 col-md-1 col-lg-2 bg-dark">IMMAGINE</div>
+        <div class="col-12 col-md-3 col-lg-2 bg-dark list-inline">
+          <h2 aria-label="Scelta edizione" class="scelta__edizione">Edizione</h2>
+            <input type="radio" class="btn-check" name="edizione" id="california" autocomplete="off" checked>
+            <label class="btn btn-secondary" for="california"><abbr title="California edition">CA</abbr></label>
+            <input type="radio" class="btn-check" name="edizione" id="newyork" autocomplete="off">
+            <label class="btn btn-secondary" for="newyork"><abbr title="New York edition">NY</abbr></label>
+        </div>
       </div>
       <div class="collapse" id="collapseRicerca">
         <div class="card card-body">
