@@ -311,6 +311,43 @@ section.notizie-evidenza-terzo-piano .col-sm-4 .col-12:nth-child(2) article {
 section.notizie-evidenza-terzo-piano>div.row>div.col-sm-8 {
   border-right: 1px solid var(--border-color-darkgray);
 }
+div.blocco-covers {
+  text-align: center;
+/*  position: sticky !important;
+  top: 20px;
+  margin-bottom: 20rem;*/
+}
+
+section#sport-podcast {
+ /* position: sticky !important;
+  top: 20px;
+  z-index: 2; */
+}
+section#sezione-covers a.h6 {
+  display: block;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+
+section#sezione-covers a.h6:hover span {
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+}
+section#sezione-covers a.h6 span.front-cover {
+  display: block;
+  padding-bottom: 1rem;
+}
+section#sezione-covers a.h6 span.back-cover {
+  display: none;
+}
+section#sezione-covers a.h6:hover span.back-cover {
+  display: block;
+  padding-bottom: 1rem;
+}
+section#sezione-covers a.h6:hover span.front-cover {
+  display: none;
+}
+
 .flag-vuota, .flag-podcast {
   display: block;
   background-color: var(--main-bg-color);
@@ -555,6 +592,60 @@ border-top: 1px solid var(--border-color-gray);
 .link__chiusura a:hover {
   background-color: var(--main-text-color);
   color: var(--main-bg-color);
+}
+div.sezione__covers-striscia h2 a {
+  display: inline-block !important;
+  margin: 1rem auto 0 auto;
+}
+section#sezione-covers-fondo a.align-items-center {
+  display: inline-block;
+  margin: -0.7rem auto 0 auto;
+  padding: 0 .625rem;
+  z-index: 2;
+  font-size: medium;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+section#sezione-covers-fondo a.align-items-center:hover {
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+}
+section#sezione-covers-fondo a.align-items-center:hover .bi-caret-right {
+  color: var(--main-bg-color);
+}
+section#sport-podcast h2 {
+  font-size: large;
+  text-transform: uppercase;
+  width: fit-content;
+}
+section#sport-podcast strong {
+  font-size: small;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+section#sport-podcast h2:after {
+  background-color: var(--header-bg-color);
+  content: "";
+  display: block;
+  height: .5rem;
+  margin-left: -1.5125rem;
+  margin-top: .125rem;
+}
+section#sport-podcast ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+section#sport-podcast ul li {
+  margin-top: 1rem;
+}
+section#sport-podcast ul li a:nth-child(3):before {
+  color: var(--main-text-color);
+  content: "|";
+  margin: 0 .25rem;
 }
 /* Media Queries */
 @media screen and (max-width: 575px) {
