@@ -43,6 +43,10 @@ a.link-red:hover {
   color: var(--main-bg-color) !important;
   background-color: var(--header-bg-color) !important;
 }
+h1 {
+  color: var(--main-bg-color);
+  background-color: var(--header-bg-color);
+}
 h2, h3 {
   font-family: 'neue-haas-grotesk-display-bold', sans-serif;
 }
