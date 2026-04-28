@@ -5,3 +5,4 @@ Per la realizzazione del progetto sono state utilizzate le seguenti tecnologie:
 - HTML 5
 - CSS
 - Bootstrap 5
+- Javascript (solo per lo switch della classe css nel menu principale al cambio di risoluzione) 
