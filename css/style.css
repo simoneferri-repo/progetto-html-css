@@ -701,7 +701,9 @@ section#sport-podcast ul li a:nth-child(3):before {
 
 }
 @media screen and (max-width: 767px) {
-
+  h3.main__titolo-principale {
+    margin-top: 1rem;
+  }
   .header__principale div.col-12.col-md-3 {
     text-align: center;
   }
