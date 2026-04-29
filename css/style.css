@@ -87,6 +87,9 @@ h2, h3 {
 .header__container-left .mx-auto a.icona:nth-child(2) {
   margin-left: 1rem;
 }
+.header__navbar .container-fluid {
+  justify-content: flex-end !important;
+}
 .navbar-dark .navbar-nav .nav-link {
   color: white;
   font-weight: 600;
