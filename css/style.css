@@ -814,6 +814,7 @@ section#sport-podcast ul li a:nth-child(3):before {
 @media screen and (max-width: 991px) {
   .blocco-sticky {
     position: relative;
+    top: auto;
   }
   div.col-lg-3 aside {
     height: auto;
