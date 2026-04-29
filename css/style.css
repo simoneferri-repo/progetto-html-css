@@ -387,7 +387,7 @@ section#sezione-covers strong {
   background-color: var(--header-bg-color);
   border: 2px solid var(--header-bg-color);
 }
-.sezione__opinioni-striscia .flag-vuota, .sezione__covers-striscia .flag-vuota {
+.sezione__opinioni-striscia .flag-vuota, .sezione__covers-striscia .flag-vuota, .sezione__horoscope-striscia .flag-vuota {
   font-weight: 700;
   font-size: x-large;
 }
@@ -449,11 +449,11 @@ div.sezione__opinioni-striscia, div.sezione__sport-striscia, div.sezione__holliw
     position: relative;
     justify-content: space-between !important;
 }
-div.sezione__podcast-striscia, div.sezione__covers-striscia {
+div.sezione__podcast-striscia, div.sezione__covers-striscia, div.sezione__horoscope-striscia {
   position: relative;
   justify-content: center !important;
 }
-div.sezione__opinioni-striscia:before, div.sezione__sport-striscia:before, div.sezione__podcast-striscia:before, div.sezione__holliwood-striscia:before, div.sezione__covers-striscia:before {
+div.sezione__opinioni-striscia:before, div.sezione__sport-striscia:before, div.sezione__podcast-striscia:before, div.sezione__holliwood-striscia:before, div.sezione__covers-striscia:before, div.sezione__horoscope-striscia:before {
   background: var(--main-text-color);
   content: "";
   display: block;
@@ -537,7 +537,7 @@ section.notizie-evidenza-secondo-piano a:hover .flag-vuota-small {
   text-transform: uppercase;
   font-size: large;
   border-top: 2px solid var(--main-text-color);
-  border-bottom: 1px solid var(--main-text-color);
+  border-bottom: 1px solid var(--border-color-gray);
   padding: 0.2rem 0;
   margin: 0.5rem 0;
   letter-spacing: 1px;
@@ -637,6 +637,63 @@ section#sezione-covers-fondo a.align-items-center:hover {
 section#sezione-covers-fondo a.align-items-center:hover .bi-caret-right {
   color: var(--main-bg-color);
 }
+#horoscope h2 a {
+  color: var(--header-bg-color);
+  text-transform: uppercase;
+  font-size: large;
+  border-top: 2px solid var(--main-text-color);
+  border-bottom: 1px solid var(--border-color-gray);
+  padding: 0.2rem 0;
+  margin: 0.5rem 0;
+  letter-spacing: 1px;
+}
+#horoscope a {
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+#horoscope a:hover, #horoscope a:hover h3 {
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+}
+#horoscope h2 a:hover {
+  background-color: var(--header-bg-color);
+  color: var(--main-bg-color);
+  text-decoration: none;
+}
+#horoscope h2 a span.bi-caret-right {
+  color: var(--header-bg-color);
+  background-color: var(--main-bg-color);
+}
+#horoscope h2 a:hover .bi-caret-right {
+  color: var(--main-bg-color);
+  background-color: var(--header-bg-color);
+}
+#horoscope p {
+  margin-bottom: 2rem;
+}
+section#sezione-horoscope-fondo a.align-items-center {
+  display: inline-block;
+  margin: -0.7rem auto 0 auto;
+  padding: 0 .625rem;
+  z-index: 2;
+  font-size: medium;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+section#sezione-horoscope-fondo a.align-items-center:hover {
+  background-color: var(--main-text-color);
+  color: var(--main-bg-color);
+}
+section#sezione-horoscope-fondo a.align-items-center:hover .bi-caret-right {
+  color: var(--main-bg-color);
+}
+div.sezione__horoscope-striscia {
+  flex-direction: column !important;
+  text-align: center;
+}
+
 section#sport-podcast h2 {
   font-size: large;
   text-transform: uppercase;
@@ -669,6 +726,7 @@ section#sport-podcast ul li a:nth-child(3):before {
   content: "|";
   margin: 0 .25rem;
 }
+
 /* Media Queries */
 @media screen and (max-width: 575px) {
   .header__container-left .mx-auto a.icona  {
