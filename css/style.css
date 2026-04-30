@@ -1,12 +1,11 @@
+/* Defnizioni generali */
 @font-face {
   font-family: 'neue-haas-grotesk-display-bold';
   src: url('../font/NeueHaasDisplayBold.ttf');
 }
-
 html {
   container-type: scroll-state;
 }
-
 header {
   position: fixed;
   z-index: 5;
@@ -50,9 +49,8 @@ h1 {
 h2, h3 {
   font-family: 'neue-haas-grotesk-display-bold', sans-serif;
 }
-.header__principale {
 
-}
+/* Definizioni testata */
 .header__principale .header__container {
   background-color: var(--header-bg-color);
   padding: 1.0rem;
@@ -143,6 +141,8 @@ h2.scelta__edizione {
 label abbr {
   cursor: pointer !important;
 }
+
+/* Definizioni aside sotto testata */
 .promo__link {
   display: block;
   font-weight: 600;
@@ -163,6 +163,8 @@ a.promo__link:hover .bi-caret-right {
   color: var(--main-bg-color);
   margin-left: 0.3rem;
 }
+
+/* Definizioni corpo principale della pagina  */
 .main__titolo-principale {
   font-family: 'neue-haas-grotesk-display-bold', sans-serif;
   font-weight: 700;
@@ -573,6 +575,8 @@ section#argomenti-notizie h3 a:hover .bi-caret-right {
   color: var(--main-bg-color);
   background-color: var(--header-bg-color);
 }
+
+/* Definizioni footer */
 footer {
   border-top: 4px solid var(--header-bg-color);
 }
@@ -616,6 +620,8 @@ border-top: 1px solid var(--border-color-gray);
   background-color: var(--main-text-color);
   color: var(--main-bg-color);
 }
+
+/* Definizioni aside colonna destra */ 
 div.sezione__covers-striscia h2 a {
   display: inline-block !important;
   margin: 1rem auto 0 auto;
@@ -759,6 +765,7 @@ section#sport-podcast ul li a:nth-child(3):before {
   }
 
 }
+
 @media screen and (max-width: 767px) {
   .header__navbar .container-fluid {
     justify-content: center !important;
@@ -811,6 +818,7 @@ section#sport-podcast ul li a:nth-child(3):before {
     margin: -0.7rem auto 0 auto;
   }
 }
+
 @media screen and (max-width: 991px) {
   .blocco-sticky {
     position: relative;
@@ -829,11 +837,13 @@ section#sport-podcast ul li a:nth-child(3):before {
     display:none;
   }
 }
+
 @media (min-width: 1200px) {
   .container{
     max-width: 1104px;
   }
 }
+
 @media screen and (min-width: 768px) {
   section#sezione-opinioni-fondo, section#sezione-sport-fondo, section#sezione-holliwood-fondo {
     display: none;
